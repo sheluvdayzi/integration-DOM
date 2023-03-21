@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Salad-bar</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Salad-Bar</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="cards__choice">
+
+            <div class="cards__container">
+                <h2 class="title__choice">1. Choisissez la base de votre bowl ~ <span class="basenb">0</span>/6</h2>
+                <div class="cards__top">
+                    <div class="card card__epinard">
+                        <img src="img/base_epinards.jpg" alt="epinards">
+                        <p>Pousses d'épinards</p>
+                    </div>
+                    <div class="card card__riz">
+                        <img src="img/base_riz.jpg" alt="riz">
+                        <p>Riz de Camargue Bio</p>
+                    </div>
+                    <div class="card card__quinoa">
+                        <img src="img/base_quinoa.jpg" alt="quinoa">
+                        <p>Quinoa Royal tricolore</p>
+                    </div>
+
+                </div>
+                <div class="cards__bottom">
+                    <div class="card card__salade">
+                        <img src="img/base_pousses.jpg" alt="salades">
+                        <p>Pousses de salades</p>
+                    </div>
+                    <div class="card card__pate">
+                        <img src="img/base_pates.jpg" alt="pates">
+                        <p>Pâtes Bio sans gluten</p>
+                    </div>
+                    <div class="card card__mache">
+                        <img src="img/base_mache.jpg" alt="mache">
+                        <p>Bouquets de mâche</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="right__item">
+                <h2 class="title__bowl">Votre bowl</h2>
+                <div class="cards__bowl">
+
+                    <div class="card__total--green">
+                        <div class="card__margin">
+                            <p><span class="ingredientnb">0</span> ingrédients</p>
+                            <h3 class="card__total">Total ~ <span class="totaleuro">8.5</span> €</h3>
+                            <span class="remise"></span><br>
+                            <button class="card__submit">Valider</button>
+                        </div>
+                    </div>
+
+                    <div class="card__right">
+                        <p>Mixer jusqu'à <b>3 ingrédients inclus</b> pour la base de votre bowl.</p>
+                    </div>
+
+                    <div class="card__right">
+                        <p><b>Vous prenez un seul ingrédient ?<br></b>il sera ajouté en double à votre bowl.</p>
+                    </div>
+                    <div class="card__right">
+                        <p><b>Vous prenez seulement 2 ingrédients ?<br></b>une remise de 1€50 sera appliquée sur la
+                            valeur total de votre bowl.</p>
+                    </div>
+                    <div class="card__right">
+                        <p><b>Vous prenez plus de 3 ingrédients ?<br></b>un supplément de 1€50 sera appliqué par
+                            ingrédient supplémentares.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="cmd__confirmation cmd__confirmation--active">
+        <h2 class="title__cmd">VOTRE BOWL ARRIVE CHEZ VOUS !</h2>
+        <img src="img/salad.png" alt="salad">
+        <p>Nombre total d'ingrédient : <span class="ingredientnb__total"></span> ingrédient</p>
+        <p>Prix total de la commande : <span class="totaleuro__total"></span>€</p>
+    </div>
+
+    <footer>
+        <p>Eval EdenSchool - j'annonce avoir minimum 70% de reussite</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

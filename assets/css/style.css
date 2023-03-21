@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Pacifico, cursive;
+    color: white;
+    background-image: url(../../img/header.jpg);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.title__choice {
+    font-family: Pacifico, cursive;
+}
+
+.cards__container {
+    margin: 5vh;
+    width: 65%;
+}
+
+.cards__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 0 2vh 0;
+}
+
+.cards__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 0 2vh 0;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card {
+    border: 1px solid black;
+    text-align: center;
+    width: 20vw;
+}
+
+.cards__choice {
+    display: flex;
+}
+
+.card:hover {
+    border: 4px solid #92ab1d;
+}
+
+.card--innactive {
+    background-color: #92ab1d;
+    color: white;
+    border: 4px solid #92ab1d;
+}
+
+
+.remise {
+    background-color: #ffc107;
+}
+
+.error {
+    background-color: red;
+}
+
+.right__item {
+    margin: 5vh;
+}
+
+.title__bowl {
+    color: #92ab1d;
+    font-family: Pacifico, cursive;
+}
+
+.card__total--green {
+    background-color: #92ab1d;
+    height: 15vh;
+    color: white;
+    margin: 2vh 0;
+}
+
+.card__total {
+    margin: 1vh 0;
+}
+
+.card__submit {
+    background-color: #ccc;
+    border: none;
+    width: 45%;
+    height: 4vh;
+    margin: 2vh 0;
+}
+
+.card__submit:hover {
+    cursor: pointer;
+}
+
+.card__margin {
+    padding: 1vh 0 2vh 2vh;
+}
+
+.card__right {
+
+    border: 2px solid #92ab1d;
+    height: 5vh;
+    margin: 2vh 0;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+}
+
+.cmd__confirmation--active {
+    display: none;
+}
+
+.cmd__confirmation {
+    background-color: #ffc107;
+    text-align: center;
+}
+
+.container--none {
+    display: none;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
